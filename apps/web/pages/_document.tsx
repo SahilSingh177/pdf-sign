@@ -2,7 +2,7 @@ import { Head, Html, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html className="h-full scroll-smooth bg-gray-100 font-normal antialiased" lang="en">
+    <Html suppressHydrationWarning className="h-full scroll-smooth bg-gray-100 font-normal antialiased" lang="en">
       <Head>
         <meta name="color-scheme"></meta>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

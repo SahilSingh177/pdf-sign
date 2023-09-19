@@ -149,7 +149,7 @@ const RecipientsPage: NextPageWithLayout = (props: any) => {
                   <li
                     key={index}
                     className="group w-full border-0 px-2 py-3 hover:bg-green-50 sm:py-4">
-                    <div id="container" className="block w-full lg:flex lg:justify-between">
+                    <div id="container mx-auto" className="block w-full lg:flex lg:justify-between">
                       <div className="block space-y-2 md:flex md:space-x-2 md:space-y-0">
                         <div
                           className={classNames(
