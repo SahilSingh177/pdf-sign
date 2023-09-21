@@ -19,15 +19,15 @@ interface HomePageProps {
 
 function HomePage ({email, session}: HomePageProps) {
   return (
-    <div className="w-full mx-auto dark:bg-black">
+    <div className="w-full mx-auto">
       <Header />
       <ScrollUp />
       <Hero />
       <Features />
-      <Video />
-      <Brands />
+      {/* <Video /> */}
+      {/* <Brands /> */}
       <AboutSectionOne />
-      <AboutSectionTwo />
+      {/* <AboutSectionTwo /> */}
       <Testimonials />
       <Pricing />
       <Footer />
