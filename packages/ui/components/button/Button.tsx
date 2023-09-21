@@ -7,7 +7,7 @@ export function Button(props: any) {
   const { color = "primary", icon, disabled, onClick } = props;
   const baseStyles =
     "inline-flex gap-x-2 items-center justify-center min-w-[80px] rounded-md border border-transparent px-4 py-2 text-sm font-medium shadow-sm disabled:bg-gray-300 duration-200";
-  const primaryStyles = "text-gray-900 bg-blue-600 hover:bg-blue-700";
+  const primaryStyles = "text-gray-900 bg-blue-500 hover:bg-blue-600";
   const secondaryStyles = "border-gray-300 bg-white text-gray-700 hover:bg-gray-50";
 
   return isLink ? (

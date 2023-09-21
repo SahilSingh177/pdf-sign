@@ -10,6 +10,7 @@ datasource db {
 enum IdentityProvider {
   insurahub
   GOOGLE
+  DOCUMENSO
 }
 
 model User {

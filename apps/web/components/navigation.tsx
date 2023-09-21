@@ -35,8 +35,8 @@ const navigation = [
     icon: DocumentTextIcon,
   },
   {
-    name: "Add Client",
-    href: "/add-client",
+    name: "Client Dashboard", 
+    href: "/clients",
     current: false,
     icon: UserCircleIcon,
   }
