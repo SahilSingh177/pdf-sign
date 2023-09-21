@@ -16,7 +16,7 @@ export const sendMail = async (
         port: 587,
         auth: {
           user: "interestifyorg@gmail.com",
-          pass: "weojavlyvyazsfyc",
+          pass: "",
         },
       });
     }
